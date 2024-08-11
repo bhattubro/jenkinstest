@@ -9,6 +9,7 @@ public class Controller {
 	@GetMapping("/msg")
 	public String helloWorld()
 	{
+		System.out.println("hey");
 		return "hey world!";
 	}
 	
